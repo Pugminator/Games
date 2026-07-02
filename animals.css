@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:20px;
+    font-family:Arial, sans-serif;
+    background:#20242c;
+    color:white;
+}
+
+h1{
+    text-align:center;
+}
+
+.battlefield{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    margin-top:20px;
+}
+
+.team{
+    flex:1;
+    background:#2f3542;
+    padding:20px;
+    border-radius:12px;
+    min-height:350px;
+}
+
+.center{
+    width:250px;
+    text-align:center;
+}
+
+#fightBtn{
+    padding:15px 25px;
+    font-size:18px;
+    cursor:pointer;
+    border:none;
+    border-radius:8px;
+    background:#ff4757;
+    color:white;
+}
+
+#fightBtn:hover{
+    background:#ff6b81;
+}
+
+.animal-row{
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+select,input{
+    padding:8px;
+}
+
+.controls{
+    text-align:center;
+    margin-top:20px;
+}
+
+.controls button{
+    margin:0 10px;
+    padding:10px 20px;
+}
+
+.console{
+    margin-top:30px;
+    background:#111;
+    padding:20px;
+    border-radius:12px;
+}
+
+#log{
+    white-space:pre-line;
+    color:#6eff6e;
+    font-family:monospace;
+}
+
+#result{
+    margin-top:20px;
+    font-size:22px;
+    font-weight:bold;
+}

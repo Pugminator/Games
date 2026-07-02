@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Battle Simulator</title>
+    <link rel="stylesheet" href="animals.css">
+</head>
+<body>
+
+    <h1>🐾 Animal Battle Simulator 🐾</h1>
+
+    <div class="battlefield">
+
+        <div class="team" id="teamA">
+            <h2>Équipe A</h2>
+            <div class="animals"></div>
+        </div>
+
+        <div class="center">
+            <button id="fightBtn">⚔️ Lancer le combat ⚔️</button>
+            <div id="result"></div>
+        </div>
+
+        <div class="team" id="teamB">
+            <h2>Équipe B</h2>
+            <div class="animals"></div>
+        </div>
+
+    </div>
+
+    <div class="controls">
+        <button onclick="addAnimal('A')">➕ Animal A</button>
+		<button onclick="resetTeams()">Reset</button>
+        <button onclick="addAnimal('B')">➕ Animal B</button>
+    </div>
+
+    <div class="console">
+        <h3>📜 Compte rendu</h3>
+        <div id="log"></div>
+    </div>
+
+    <script src="animals.js"></script>
+</body>
+</html>
