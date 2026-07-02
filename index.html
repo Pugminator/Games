@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎮 Pugminator Gaming 🎮</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      background: #111827;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+
+    /* Responsive */
+    @media (max-width: 1000px) {
+      .grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 700px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 450px) {
+      .grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .tile {
+      background: #1f2937;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      transition: transform 0.2s, background 0.2s;
+      font-weight: bold;
+    }
+
+    .tile:hover {
+      transform: scale(1.05);
+      background: #374151;
+    }
+	
+	.btnYT {
+	  display: inline-block;
+	  margin-top: 20px;
+	  padding: 12px 20px;
+	  background: red;
+	  color: white;
+	  text-decoration: none;
+	  border-radius: 8px;
+	  transition: 0.3s;
+	}
+
+	.btnYT:hover {
+	  background: darkred;
+	  transform: scale(1.05);
+	}
+	
+	.centerDiv {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  margin: 30px 0;
+	}
+  </style>
+</head>
+
+<body>
+
+<header>
+  🎮 Pugminator Gaming 🎮
+</header>
+
+  <div class="centerDiv">
+	<a class="btnYT" href="http://www.youtube.com/@Pugminator?sub_confirmation=1" target="_blank">
+      S’abonner sur YouTube
+    </a>
+  </div>
+<div class="container">
+  <div class="grid">
+
+    <a class="tile" href="animals.html" target="_blank">🐾 Animal Battle Simulator 🐾</a>
+    <!--<a class="tile" href="https://example.com/game2" target="_blank">Jeu 2</a>
+    <a class="tile" href="https://example.com/game3" target="_blank">Jeu 3</a>
+    <a class="tile" href="https://example.com/game4" target="_blank">Jeu 4</a>
+
+    <a class="tile" href="https://example.com/game5" target="_blank">Jeu 5</a>
+    <a class="tile" href="https://example.com/game6" target="_blank">Jeu 6</a>
+    <a class="tile" href="https://example.com/game7" target="_blank">Jeu 7</a>
+    <a class="tile" href="https://example.com/game8" target="_blank">Jeu 8</a>-->
+
+  </div>
+</div>
+
+</body>
+</html>
