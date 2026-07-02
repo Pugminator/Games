@@ -8,6 +8,7 @@ const animals = {
     "🐔 Poule":250,
     "🐶 Chien":300,
     "🐱 Chat":320,
+	"👨 Humain": 350,
     "🦊 Renard":400,
     "🦝 Raton laveur":420,
     "🐺 Loup":500,
