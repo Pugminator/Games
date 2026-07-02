@@ -1,13 +1,44 @@
 const animals = {
     "🐭 Souris":100,
+    "🐹 Hamster":120,
     "🐰 Lapin":150,
-    "🐕 Chien":300,
+    "🐿️ Écureuil":180,
+    "🦔 Hérisson":200,
+    "🦆 Canard":220,
+    "🐔 Poule":250,
+    "🐶 Chien":300,
+    "🐱 Chat":320,
+    "🦊 Renard":400,
+    "🦝 Raton laveur":420,
     "🐺 Loup":500,
     "🦌 Cerf":550,
+    "🐗 Sanglier":600,
+    "🦘 Kangourou":650,
+    "🦦 Loutre":700,
+    "🦁 Lion":750,
     "🦍 Gorille":800,
+    "🐻 Ours":850,
     "🐅 Tigre":900,
-    "🦏 Rhinocéros":1200,
-    "🐘 Éléphant":1500
+    "🐊 Crocodile":950,
+    "🦈 Requin":1000,
+    "🦅 Aigle":1050,
+    "🦉 Hibou":1100,
+    "🐘 Éléphant":1500,
+    "🦏 Rhinocéros":1400,
+    "🦛 Hippopotame":1350,
+    "🦓 Zèbre":700,
+    "🐆 Léopard":920,
+    "🐃 Buffle":880,
+    "🦬 Bison":900,
+    "🐫 Chameau":600,
+    "🦒 Girafe":650,
+    "🐍 Serpent":500,
+    "🦂 Scorpion":550,
+    "🐝 Abeille":450,
+    "🐜 Fourmi":300,
+    "🦎 Lézard":350,
+    "🐙 Poulpe":800,
+    "🦑 Calamar géant":850
 };
 
 function createRow() {
@@ -92,12 +123,10 @@ function computeTeam(teamId){
         );
     });
 
-	const effectif = 1 + Math.sqrt(totalUnits - 1);
     const bonus =
         1 + Math.log(totalUnits || 1);
 
     totalPower += bonus;
-	totalPower *= effectif;
 
     return {
         power: totalPower,
